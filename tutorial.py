@@ -37,7 +37,7 @@ dag = DAG(
     description='A simple tutorial DAG',
     schedule_interval=timedelta(days=3),
     start_date=days_ago(2),
-    tags=['example']
+    tags=['example', 'mine']
 )
 
 # t1, t2 and t3 are examples of tasks created by instantiating operators
