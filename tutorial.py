@@ -50,7 +50,7 @@ t1 = BashOperator(
 t2 = BashOperator(
     task_id='sleep',
     depends_on_past=False,
-    bash_command='sleep 5',
+    bash_command='sleep 60',
     retries=3,
     dag=dag,
 )
